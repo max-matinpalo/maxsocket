@@ -9,7 +9,7 @@
 |  | `maxsocket` | `reconnecting-websocket` | `simple-websocket` |
 | :--- | :--- | :--- | :--- |
 | Architecture | **Native Browser** `WebSocket` | **Native Browser** `WebSocket` | **Node.js Polyfills** `stream` & `buffer` |
-| Size (min+gzip) | **1.2 kB** | **~2.6 kB** | **13.8 kB** |
+| Size (min+gzip) | **1.0 kB** | **~2.6 kB** | **13.8 kB** |
 | Auto-Reconnect | ✅ Built-in | ✅ Built-in | ❌ Manual |
 | JSON Handling | ✅ Built-in | ❌ Manual | ❌ Manual |
 | Routing | ✅ Built-in | ❌ Manual | ❌ Manual |
