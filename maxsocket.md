@@ -1,4 +1,9 @@
 # maxsocket
+[![npm version](https://img.shields.io/npm/v/maxsocket)](https://www.npmjs.com/package/maxsocket)
+[![license](https://img.shields.io/github/license/max-matinpalo/maxsocket?v=1)](https://github.com/max-matinpalo/maxsocket/blob/main/LICENSE)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/maxsocket)](https://bundlephobia.com/package/maxsocket)
+
+
 **Lightweight alternative for `reconnecting-websocket` and `simple-websocket`**
 
 |  | `maxsocket` | `reconnecting-websocket` | `simple-websocket` |
