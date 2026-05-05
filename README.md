@@ -9,7 +9,7 @@
 |  | `maxsocket` | `reconnecting-websocket` | `simple-websocket` |
 | :--- | :--- | :--- | :--- |
 | Architecture | **Native Browser** `WebSocket` | **Native Browser** `WebSocket` | **Node.js Polyfills** `stream` & `buffer` |
-| Size (min+gzip) | **1.0 kB** | **~2.6 kB** | **13.8 kB** |
+| Size (min+gzip) | **~0.9 kB** | **~2.6 kB** | **~13.8 kB** |
 | Auto-Reconnect | ✅ Built-in | ✅ Built-in | ❌ Manual |
 | JSON Handling | ✅ Built-in | ❌ Manual | ❌ Manual |
 | Routing | ✅ Built-in | ❌ Manual | ❌ Manual |
@@ -34,7 +34,7 @@ socket.send("hello");
 ```
 
 
-### Options
+## Options
 |  | Default | Description |
 | :--- | :--- | :--- |
 | `params` | `{}` | Object of key-values appended as a query string to the URL. |
@@ -42,7 +42,7 @@ socket.send("hello");
 | `reconnect` | `5000` | Delay in ms before attempting to reconnect on failure. |
 
 
-### API
+## API
 |  | Arguments | Description |
 | :--- | :--- | :--- |
 | `connect(url, options?)` | `url: string`, `options?: object` | Creates a stable socket accessor. |
@@ -58,9 +58,8 @@ socket.send("hello");
 | `socket.off(event)` | `event: string` | Removes a routed handler. |
 
 
+## Event routing
 
-
-### Optional event routing
 Option to register handlers for specific events.  
 If no route handler registered for the passed events, the `socket.onMessage()`handler will be called.
 
@@ -76,3 +75,7 @@ socket.on("chat", chatHandler)
 ```js
 {event: "", data: {}}
 ```
+
+
+## License
+MIT
