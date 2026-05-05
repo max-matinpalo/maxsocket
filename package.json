@@ -1,6 +1,6 @@
 {
 	"name": "maxsocket",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Light alternative for simple-websocket",
 	"author": "max matinpalo",
 	"type": "module",
